@@ -6,8 +6,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   min-height: 100vh;
-  /*background-image: url('http://cdn29.us1.fansshare.com/images/sunny/weather-forecast-the-magic-loungeabout-sunny-skies-wallpaper-sky-2074258424.jpg');*/
-  /*background-size: cover;*/
+  background-image: url('http://cdn29.us1.fansshare.com/images/sunny/weather-forecast-the-magic-loungeabout-sunny-skies-wallpaper-sky-2074258424.jpg');
+  background-size: cover;
 }
 
 code {
