@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+  /*background-image: url('http://cdn29.us1.fansshare.com/images/sunny/weather-forecast-the-magic-loungeabout-sunny-skies-wallpaper-sky-2074258424.jpg');*/
+  /*background-size: cover;*/
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.mb20{
+  margin-bottom: 20px;
+}
+.m5{
+  margin: 5px;
+}
