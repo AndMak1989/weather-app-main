@@ -1,6 +1,5 @@
-import React, { useState } from "react";
-import { CityWeather, HourWeather } from "../interfaces";
-import Spinner from "./Spinner";
+import React from "react";
+import { HourWeather } from "../interfaces";
 
 interface HourlyCachedWeatherProps {
   hours: number;

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React  from "react";
 import Spinner from "./Spinner";
 
 interface CurrentCachedWeatherProps {
@@ -10,7 +10,7 @@ export const CurrentCachedWeather: React.FC<CurrentCachedWeatherProps> = ({
   cachedWeather,
   city
 }) => {
-  let { loading, error } = cachedWeather;
+  let { loading } = cachedWeather;
 
   if (loading) {
     return <Spinner />;

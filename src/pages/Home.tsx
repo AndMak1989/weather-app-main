@@ -1,4 +1,4 @@
-import React, { useCallback, useEffect, useState, useMemo } from "react";
+import React, { useCallback, useState } from "react";
 import HourPicker from "../components/HourPicker";
 import CityPicker from "../components/CityPicker";
 import CountryPicker from "../components/CountryPicker";
@@ -13,7 +13,7 @@ function Home() {
   const [city, setCity] = useState<ICity | null>(null);
   const [hours, setHours] = useState<number>(0);
   const [cities, setSelectCities] = useState<Array<ICity>>([]);
-  const { getWeatherForecast, clearWeatherForecast } = useActions();
+  const { getWeatherForecast } = useActions();
 
 
   let citiesPreparate = useCallback(

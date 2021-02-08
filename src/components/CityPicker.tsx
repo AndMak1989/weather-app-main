@@ -1,5 +1,5 @@
 import React from 'react'
-import {ICity, ICountry} from "../interfaces";
+import {ICity} from "../interfaces";
 
 interface CityPickerProps {
     cities: Array<ICity>,
